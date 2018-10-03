@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                sh './jenkins/scriptspppp/test.sh' 
+                sh './jenkins/scripts/test.sh' 
             }
         }
     }
